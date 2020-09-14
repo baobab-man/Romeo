@@ -51,7 +51,7 @@ class PythonTest(unittest.TestCase):
 
         self.assertEqual('Standard Generalized Markup Language', impl.pick_gloss_term(data, 'GlossTerm'))
 
-    def test_sorted_distinct_list(self):  # 리스트를 셋으로 변환후 중복제거하고 다시 리스트로 정
+    def test_sorted_distinct_list(self):  # 리스트를 셋으로 변환후 중복제거하고 다시 리스트로 정렬
         data = [1, 5, 8, 10, 4, 9, 11, 10, 8, 14, 3, 4]
 
         self.assertEqual([1, 3, 4, 5, 8, 9, 10, 11, 14], impl.sort_and_distinct(data))
