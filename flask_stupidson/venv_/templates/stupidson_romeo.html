@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>생막창 전문점 "바보와 아들" </title>
+    <link href="{{ url_for('static', filename='style5.css') }}" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="style5.css"> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="{{ url_for('static', filename='SlideImg.js') }}"></script>
+    <!-- <script type="text/javascript" src="SlideImg.js"></script> -->
+</head>
+
+<body>
+    <header>
+        <div id="Navigation">
+            <nav class="Regi">
+                <ul>
+                    <li>
+                        <a href="test5.html" target="_blank">
+                            로그인
+                        </a>
+                    </li>
+                    <li>
+                        |
+                    </li>
+                    <li>
+                        <a href="test5.html" target="_blank">
+                            회원가입
+                        </a>
+                    </li>
+                    <li>
+                        |
+                    </li>
+                    <li>
+                        <a href="test5.html" target="_blank">
+                            마이페이지
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="Logo">
+            <img src="{{ url_for('static', filename='img/logo.png') }}" alt="로고">
+        </div>
+
+        <nav class="MenuTab">
+            <ul>
+                <li>
+                    <a href="test5.html" target="_blank">
+                        <img src="{{ url_for('static', filename='img/menu_intro.png') }}" alt="바보와아들소개">
+                        <!-- <img src=".\img\menu_intro.png" alt="바보와아들소개"> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="test5.html" target="_blank">
+                        <img src="{{ url_for('static', filename='img/menu_map.png') }}" alt="오시는길">
+                        <!-- <img src=".\img\menu_map.png" alt="오시는길"> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="test5.html" target="_blank">
+                        <img src="{{ url_for('static', filename='img/menu_gallery.png') }}" alt="갤러리">
+                        <!-- <img src=".\img\menu_gallery.png" alt="갤러리"> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="test5.html" target="_blank">
+                        <img src="{{ url_for('static', filename='img/menu_community.png') }}" alt="커뮤니티">
+                        <!-- <img src=".\img\menu_community.png" alt="커뮤니티"> -->
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="Center">
+            <div id="slide_section">
+                <ul>
+                    <li>
+                        <img src="{{ url_for('static', filename='img/img01.png') }}" width="980px" alt="메인이미지">
+                        <!-- <img src=".\img\img01.png" width="980px" alt="메인이미지"> -->
+                    </li>
+                    <li>
+                        <img src="{{ url_for('static', filename='img/img02.png') }}" width="980px" alt="메인이미지">
+                        <!-- <img src=".\img\img02.png" width="980px" alt="메인이미지"> -->
+                    </li>
+                    <li>
+                        <img src="{{ url_for('static', filename='img/img03.png') }}" width="980px" alt="메인이미지">
+                        <!-- <img src=".\img\img03.png" width="980px" alt="메인이미지"> -->
+                    </li> 
+                </ul>
+            </div>
+        </div>
+        <div class="SideMenu">
+            <div id="Commu">
+                <img src="{{ url_for('static', filename='img/main_community_tit.png') }}" alt="커뮤니티">
+                <!-- <img src=".\img\main_community_tit.png" alt="커뮤니티"> -->
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="test5.html" target="_blank">
+                                <span>▪ 2009-09-23</span> sadfa ver. sdfdsf
+                            </a>
+                        </li>
+                        <li>
+                            <a href="test5.html" target="_blank">
+                                <span>▪ 2009-09-23</span> asdfsad ver. sdf
+                            </a>
+                        </li>
+                        <li>
+                            <a href="test5.html" target="_blank">
+                                <span>▪ 2009-09-23</span> 테스트 자료 ver. 222 <span id="New">[1]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="test5.html" target="_blank">
+                                <span>▪ 2009-09-23</span> 테스트 자료 ver. sdfsdf
+                            </a>
+                        </li>
+                        <li>
+                            <a href="test5.html" target="_blank">
+                                <span>▪ 2004-11-01</span>  Untitled
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="Gal">
+                <img src="{{ url_for('static', filename='img/main_gallery_tit.png') }}" alt="갤러리">
+                <!-- <img src=".\img\main_gallery_tit.png" alt="갤러리"> -->
+                <nav>
+                    <ul>
+                        <li id="Pic1">
+                            <a href="test5.html" target="_blank">
+                                <img src="{{ url_for('static', filename='img/img01.png') }}" width="105px" height="105px" alt="갤러리1">
+                            </a>
+                        </li>
+                        <li id="Pic2">
+                            <a href="test5.html" target="_blank">
+                                <img src="{{ url_for('static', filename='img/img02.png') }}" width="105px" height="105px" alt="갤러리1">
+                                <!-- <img src=".\img\img02.png" width="105px" height="105px" alt="갤러리2"> -->
+                            </a>
+                        </li>
+                        <li id="Pic3">
+                            <a href="test5.html" target="_blank">
+                                <img src="{{ url_for('static', filename='img/img03.png') }}" width="105px" height="105px" alt="갤러리1">
+                                <!-- <img src=".\img\img03.png" width="105px" height="105px" alt="갤러리3"> -->
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="Reserv">
+                <img src="{{ url_for('static', filename='img/main_reservation_content.png') }}" alt="예약문의">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img class="FooterImg" src="{{ url_for('static', filename='img/copyright.png') }}" alt="copyright">
+    </footer>
+</body>
+
+</html>
